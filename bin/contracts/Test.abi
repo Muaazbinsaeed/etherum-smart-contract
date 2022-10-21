@@ -1,0 +1,1 @@
+[{"inputs":[{"internalType":"uint256","name":"testNum","type":"uint256"}],"name":"test","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"pure","type":"function"}]

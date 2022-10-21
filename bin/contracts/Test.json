@@ -1,0 +1,203 @@
+{
+    "contractName": "Test",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "testNum",
+                    "type": "uint256"
+                }
+            ],
+            "name": "test",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "pure",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"testNum\",\"type\":\"uint256\"}],\"name\":\"test\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/ahmad/Projects/Web3.0/faucet/contracts/Test.sol\":\"Test\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/ahmad/Projects/Web3.0/faucet/contracts/Test.sol\":{\"keccak256\":\"0x09888aca6c7ffe5fa78c849db30396c8c94f88a5725d53d81cc3da9dd74577f4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8d41e1247a921815f9cbc54334c77bc7fbe1683775521f529de8e92b9e2aa32f\",\"dweb:/ipfs/QmbJkeAUhgCUk9UdXhytHRQPySRyKvAqQVtxA7o6KWr9Fz\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50609b8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806329e99f0714602d575b600080fd5b603b6038366004604d565b90565b60405190815260200160405180910390f35b600060208284031215605e57600080fd5b503591905056fea2646970667358221220da44cbb83196cbcffead99461afada2691c02ca3d5d229cc56e6cc3db8b4c37864736f6c63430008110033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c806329e99f0714602d575b600080fd5b603b6038366004604d565b90565b60405190815260200160405180910390f35b600060208284031215605e57600080fd5b503591905056fea2646970667358221220da44cbb83196cbcffead99461afada2691c02ca3d5d229cc56e6cc3db8b4c37864736f6c63430008110033",
+    "sourceMap": "66:116:2:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "66:116:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;86:94;;;;;;:::i;:::-;166:7;86:94;;;;345:25:3;;;333:2;318:18;86:94:2;;;;;;;14:180:3;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;-1:-1:-1;165:23:3;;14:180;-1:-1:-1;14:180:3:o",
+    "sourcePath": "/home/ahmad/Projects/Web3.0/faucet/contracts/Test.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.17+commit.8df45f5f"
+    },
+    "ast": {
+        "absolutePath": "/home/ahmad/Projects/Web3.0/faucet/contracts/Test.sol",
+        "exportedSymbols": {
+            "Test": [
+                105
+            ]
+        },
+        "id": 106,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 94,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".22",
+                    "<",
+                    "0.9",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "32:32:2"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Test",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 105,
+                "linearizedBaseContracts": [
+                    105
+                ],
+                "name": "Test",
+                "nameLocation": "75:4:2",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 103,
+                            "nodeType": "Block",
+                            "src": "149:31:2",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 101,
+                                        "name": "testNum",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 96,
+                                        "src": "166:7:2",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "functionReturnParameters": 100,
+                                    "id": 102,
+                                    "nodeType": "Return",
+                                    "src": "159:14:2"
+                                }
+                            ]
+                        },
+                        "functionSelector": "29e99f07",
+                        "id": 104,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "test",
+                        "nameLocation": "95:4:2",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 97,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 96,
+                                    "mutability": "mutable",
+                                    "name": "testNum",
+                                    "nameLocation": "108:7:2",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 104,
+                                    "src": "100:15:2",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 95,
+                                        "name": "uint256",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "100:7:2",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "99:17:2"
+                        },
+                        "returnParameters": {
+                            "id": 100,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 99,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 104,
+                                    "src": "140:7:2",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 98,
+                                        "name": "uint256",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "140:7:2",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "139:9:2"
+                        },
+                        "scope": 105,
+                        "src": "86:94:2",
+                        "stateMutability": "pure",
+                        "virtual": false,
+                        "visibility": "external"
+                    }
+                ],
+                "scope": 106,
+                "src": "66:116:2",
+                "usedErrors": []
+            }
+        ],
+        "src": "32:151:2"
+    },
+    "functionHashes": {
+        "test(uint256)": "29e99f07"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "31000",
+            "executionCost": "81",
+            "totalCost": "31081"
+        },
+        "external": {
+            "test(uint256)": "235"
+        }
+    }
+}
