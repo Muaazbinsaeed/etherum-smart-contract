@@ -1,8 +1,13 @@
 # Faucet App
 
-A simple  Decentralised App using the Ethereum Blockchain, Solidity and ReactJS.
+A simple Decentralised App using the Ethereum Blockchain, Solidity and ReactJS.
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMaBZJ-VFnDKbUbDKJfIIFhgYhBvVH1_eDtA&usqp=CAU" height="200px" width="280px"/>
+
+![alt text](https://github.com/EdraakSystems/esdev-blockchain/blob/main/ss-1.png?raw=true)
+![alt text](https://github.com/EdraakSystems/esdev-blockchain/blob/main/ss-2.png?raw=true)
+
+![alt text](https://github.com/EdraakSystems/esdev-blockchain/blob/main/ss-3.png?raw=true)
 
 <b>Ethereum</b> is an open source, public, blockchain-based distributed computing platform and operating system featuring smart contract functionality.
 
@@ -12,7 +17,7 @@ This app has 3 main features:
 
 1. Connect to Metamask
 2. Transfer funds from an account to smart contract
-2. Withdraw funds from smart contract to funds
+3. Withdraw funds from smart contract to funds
 
 ## Dependencies
 
@@ -42,6 +47,5 @@ This app has 3 main features:
 cd esdev-blockchain
 npm start
 ```
-
 
 &copy; 2022 Edraak Systems
